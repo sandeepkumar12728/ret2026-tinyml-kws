@@ -27,13 +27,13 @@
 ## 📁 Files
 
 - `RET2026_Button_KWS.ino` - Main Arduino sketch with button validation
-- `sandeepkumar12728-project-1_inferencing.h` - Edge Impulse library
+-  `firmware/sandeepkumar12728-project-1_inferencing.h`- Edge Impulse library
 - `docs/RET2026_Paper.pdf` - Final 5-page IEEE paper
 
 ## 🚀 How to Run
 
 1. **Install Arduino IDE** + ESP32 board package
-2. **Install Edge Impulse library**: `sandeepkumar12728-project-1_inferencing.zip`
+2. **Install Edge Impulse library**: Download from Edge Impulse Studio → Deployment → Arduino library → Add `.ZIP Library` in Arduino IDE
 3. **Upload** `RET2026_Button_KWS.ino` to ESP32
 4. **Open Serial Monitor** at 115200 baud
 5. **Press BOOT button** - GPIO0 = "yes" → LED ON
@@ -57,3 +57,6 @@ analog microphone is estimated at 173ms including MFCC computation overhead.
   booktitle={RET2026 IEEE Conference},
   year={2026}
 }
+### Dependencies
+Install Edge Impulse library via Arduino IDE:
+`Sketch → Include Library → Add .ZIP Library`
